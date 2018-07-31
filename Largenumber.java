@@ -10,14 +10,19 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-       int i=sc.nextInt();
-		int k=100;
-		double s;
-		s=i(i+1)/2;
-		for(i=0;i<=k;i++)
+		int n=sc.nextInt();
+		if(n==0)
 		{
-			System.out.println("sum of natural numbers:"+s);
+			System.out.println("Zero");
 		}
-	
+		else if(n>0)
+		{
+			System.out.println("Positive");
+		}
+		else
+		{
+			System.out.println("Negative");
+
+		}
 	}
 }
